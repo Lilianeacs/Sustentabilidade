@@ -10,4 +10,8 @@
     <ProjectReference Include="..\FashionTrend.Domain\FashionTrend.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Shered\Exceptions\" />
+  </ItemGroup>
+
 </Project>
