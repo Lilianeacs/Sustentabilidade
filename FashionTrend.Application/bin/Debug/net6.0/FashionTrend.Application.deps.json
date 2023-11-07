@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FashionTrend.Application/1.0.0": {
+        "dependencies": {
+          "FashionTrend.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FashionTrend.Application.dll": {}
+        }
+      },
+      "FashionTrend.Domain/1.0.0": {
+        "runtime": {
+          "FashionTrend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FashionTrend.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FashionTrend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

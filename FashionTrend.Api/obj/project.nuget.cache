@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "PNXI/WGvPDDnXvcwaJq6lmNg8kn99i0q0K/4OwrnLo1s7rLoaSFr7capbBYqUBdHouvtC2uvE3DkTmh0sdsIeA==",
+  "success": true,
+  "projectFilePath": "D:\\BTG_EXERC\\MODULO_4-C#\\Sustentabilidade\\FashionTrend.Api\\FashionTrend.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
