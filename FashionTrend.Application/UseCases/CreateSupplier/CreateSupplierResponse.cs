@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FashionTrend.Application.UseCases.CreateUser
 {
-    internal class CreateUserRequest
+    internal class CreateSupplierResponse
     {
     }
 }
