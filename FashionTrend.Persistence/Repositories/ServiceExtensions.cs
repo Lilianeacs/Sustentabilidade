@@ -3,6 +3,7 @@ using FashionTrend.Persistence.Context;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using FashionTrend.Persistence.Repositories;
 
 namespace FashionTrend.Persistence.Repositories
 {
@@ -22,7 +23,11 @@ namespace FashionTrend.Persistence.Repositories
             // Toda a construção de escopo da nossa aplicação ficará aqui
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ISupplierRepository, SupplierRepository>();
+            services.AddScoped<IServiceRepository, ServiceRepository>();
+            services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
 
         }
     }
 }
+
+

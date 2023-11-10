@@ -18,5 +18,24 @@ namespace FashionTrend.Persistence.Repositories
             return await Context.Suppliers.FirstOrDefaultAsync(
                 x => x.Email.Equals(email), cancellationToken);
         }
+
+        public async Task<Supplier> GetByName(string name, CancellationToken cancellationToken)
+        {
+
+            return await Context.Suppliers.FirstOrDefaultAsync(
+                x => x.Name.Equals(name), cancellationToken);
+        }
+
+        public async Task<List<Supplier>> GetByMachineType(string machineType, CancellationToken cancellationToken)
+        {
+            return await Context.Suppliers.Where(
+            x => x.MachineType.Any(s => s.Equals(machineType))).ToListAsync(cancellationToken);
+        }
+
+        public async Task<List<Supplier>> GetByMaterialType(string materialType, CancellationToken cancellationToken)
+        {
+            return await Context.Suppliers.Where(
+           x => x.MaterialType.Any(s => s.Equals(materialType))).ToListAsync(cancellationToken);
+        }
     }
 }

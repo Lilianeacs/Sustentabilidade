@@ -5,7 +5,7 @@
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string TipoMaquina { get; set; }
-        public string TipoMaterial { get; set; }
+        public string MachineType { get; set; }
+        public string MaterialType { get; set; }
     }
 }
