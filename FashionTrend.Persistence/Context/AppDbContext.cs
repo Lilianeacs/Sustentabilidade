@@ -12,10 +12,10 @@ namespace FashionTrend.Persistence.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.Materials);
-            modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.MachinesType);
-            modelBuilder.Entity<Service>().Ignore(service => service.Materials);
-            modelBuilder.Entity<Service>().Ignore(service => service.SewingMachines);
+            modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.MaterialType);
+            modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.MachineType);
+            modelBuilder.Entity<Service>().Ignore(service => service.Material);
+            modelBuilder.Entity<Service>().Ignore(service => service.SewingMachine);
             modelBuilder.Entity<Service>().Ignore(service => service.Type);
         }
 

@@ -12,6 +12,6 @@ namespace FashionTrend.Domain.Entities
         public DateTimeOffset EstimatedDate { get; set; }
         public Guid SupplierId { get; set; }
         public Guid ServiceID { get; set; }
-        public EServiceStatus Status { get; set; }
+        public List<EServiceStatus> Status { get; set; }
     }
 }

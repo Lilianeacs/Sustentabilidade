@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static FashionTrend.Domain.Entities.ConstantClasses;
 
 namespace FashionTrend.Persistence.Repositories
 {
@@ -32,7 +31,7 @@ namespace FashionTrend.Persistence.Repositories
         public async Task<List<Service>> GetByType(string type, CancellationToken cancellationToken)
         {
             return await Context.Services.Where(
-                x => x.Types.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
+                x => x.Type.Any(s => s.Equals(type))).ToListAsync(cancellationToken);
         }
     }
 }
