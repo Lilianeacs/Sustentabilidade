@@ -7,11 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Shered\**" />
+    <EmbeddedResource Remove="Shered\**" />
+    <None Remove="Shered\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FashionTrend.Domain\FashionTrend.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Shered\Exceptions\" />
+    <Folder Include="Shared\Exceptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.0" />
+    <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
 
 </Project>

@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MediatR;
 
-namespace FashionTrend.Application.UseCases.CreateUser
+namespace FashionTrend.Application.UseCases.CreateSupplier
 {
-    internal class CreateSupplierRequest
-    {
-    }
+    public sealed record CreateSupplierRequest ( 
+        string Email,
+        string Name,
+        string Password,
+        string TipoMaquina,
+        string TipoMaterial
+        ) : IRequest<CreateSupplierResponse>;
 }

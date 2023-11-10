@@ -1,9 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "QCklbUwYDieSTmwN5ICUAaUSkhHuYUpDtpZYwtM+202JE3xSfQ3UlpfuyBePKgFAM16aVIWTNAzkYJjescs0VA==",
+  "dgSpecHash": "0NY/ILc3POGrnKgbwQ8bw5fnOPYCpmKy38dz6o3JR0S76ARSqLDSjiRmx/OtgHUzrq1jdLXKKB/96mv0xkJ1BA==",
   "success": true,
   "projectFilePath": "D:\\BTG_EXERC\\MODULO_4-C#\\Sustentabilidade\\FashionTrend.Persistence\\FashionTrend.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.0\\fluentvalidation.dependencyinjectionextensions.11.8.0.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.11\\microsoft.data.sqlite.core.6.0.11.nupkg.sha512",
     "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.11\\microsoft.entityframeworkcore.6.0.11.nupkg.sha512",
     "C:\\Users\\Liliane Souza\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.11\\microsoft.entityframeworkcore.abstractions.6.0.11.nupkg.sha512",
