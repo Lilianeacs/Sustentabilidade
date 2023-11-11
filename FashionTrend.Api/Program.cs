@@ -20,8 +20,7 @@ namespace FashionTrend.Api
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
-            BD.CreateDatabase(app);
+            BD.BD.CreateDataBase(app);
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -29,7 +28,7 @@ namespace FashionTrend.Api
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            app.UseCors();
             app.MapControllers();
             app.Run();
         }

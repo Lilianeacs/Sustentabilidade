@@ -17,6 +17,7 @@ namespace FashionTrend.Persistence.Context
             modelBuilder.Entity<Service>().Ignore(service => service.Material);
             modelBuilder.Entity<Service>().Ignore(service => service.SewingMachine);
             modelBuilder.Entity<Service>().Ignore(service => service.Type);
+            modelBuilder.Entity<ServiceOrder>().Ignore(ServiceOrder => ServiceOrder.Status);
         }
 
         // DB Set ele é a representação de uma tabela
