@@ -1,9 +1,8 @@
 ﻿using FashionTrend.Domain.Interfaces;
 using FashionTrend.Persistence.Context;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
-using FashionTrend.Persistence.Repositories;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace FashionTrend.Persistence.Repositories
 {
