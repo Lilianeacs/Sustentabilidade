@@ -6,7 +6,7 @@ namespace FashionTrend.Domain.Entities
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public List<ESewingMachine> MachineType { get; set; }
-        public List<EMaterial> MaterialType { get; set; }
+        public string MachineType { get; set; }
+        public string MaterialType { get; set; }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace FashionTrend.Application.UseCases.CreateSupplier
+﻿namespace FashionTrend.Application.UseCases._Supplier.UpdateSupplier
 {
-    public sealed record CreateSupplierResponse
+    public sealed record UpdateSupplierResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

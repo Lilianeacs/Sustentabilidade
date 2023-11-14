@@ -1,9 +1,10 @@
 ﻿using AutoMapper;
+using FashionTrend.Application.UseCases._Supplier.CreateSupplier;
 using FashionTrend.Domain.Entities;
 using FashionTrend.Domain.Interfaces;
 using MediatR;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases._Supplier.CreateSupplier
 {
     public class CreateSupplierHandler : IRequestHandler<CreateSupplierRequest, CreateSupplierResponse>
     {
@@ -19,12 +20,7 @@ namespace FashionTrend.Application.UseCases.CreateSupplier
             _mapper = mapper;
         }
 
-        public Task<CreateSupplierResponse> Handle(CreateSupplierRequest request, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<CreateSupplierResponse> Handler(CreateSupplierRequest request, CancellationToken cancellationToken)
+        public async Task<CreateSupplierResponse> Handle(CreateSupplierRequest request, CancellationToken cancellationToken)
         {
             var supplier = _mapper.Map<Supplier>(request);
 

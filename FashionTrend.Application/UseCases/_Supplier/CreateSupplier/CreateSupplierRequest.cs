@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace FashionTrend.Application.UseCases.CreateSupplier
+namespace FashionTrend.Application.UseCases._Supplier.CreateSupplier
 {
-    public sealed record CreateSupplierRequest ( 
+    public sealed record CreateSupplierRequest(
         string Email,
         string Name,
         string Password,
