@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="Shared\Exceptions\" />
+    <Folder Include="UseCases\_Service\" />
   </ItemGroup>
 
   <ItemGroup>

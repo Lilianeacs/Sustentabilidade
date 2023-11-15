@@ -1,8 +1,8 @@
 ﻿using static FashionTrend.Domain.Entities.ConstantClasses;
 
-namespace FashionTrend.Application.UseCases._Supplier.DeleteSupplier
+namespace FashionTrend.Application.UseCases._Service.UpdateService
 {
-    public sealed record DeleteSupplierResponse
+    public sealed record UpdateServiceResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
@@ -11,3 +11,4 @@ namespace FashionTrend.Application.UseCases._Supplier.DeleteSupplier
         public List<EMaterial> MaterialType { get; set; }
     }
 }
+

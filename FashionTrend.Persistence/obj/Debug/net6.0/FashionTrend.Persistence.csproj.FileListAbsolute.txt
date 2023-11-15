@@ -1,8 +1,3 @@
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.csproj.AssemblyReference.cache
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.AssemblyInfoInputs.cache
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.AssemblyInfo.cs
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.csproj.CoreCompileInputs.cache
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Persistence.deps.json
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Persistence.dll
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Persistence.pdb
@@ -10,6 +5,11 @@ D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Domain.dll
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Application.pdb
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\bin\Debug\net6.0\FashionTrend.Domain.pdb
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.csproj.AssemblyReference.cache
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.AssemblyInfoInputs.cache
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.AssemblyInfo.cs
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.csproj.CoreCompileInputs.cache
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.csproj.CopyComplete
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\FashionTrend.Persistence.dll
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Persistence\obj\Debug\net6.0\refint\FashionTrend.Persistence.dll

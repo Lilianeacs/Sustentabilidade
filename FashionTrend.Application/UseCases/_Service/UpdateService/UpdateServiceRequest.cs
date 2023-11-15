@@ -1,13 +1,14 @@
 ﻿using MediatR;
 using static FashionTrend.Domain.Entities.ConstantClasses;
 
-namespace FashionTrend.Application.UseCases._Supplier.CreateSupplier
+namespace FashionTrend.Application.UseCases._Service.UpdateService
 {
-    public sealed record CreateSupplierRequest(
-        string Name,
+    public sealed record UpdateServiceRequest(
+        Guid Id,
         string Email,
+        string Name,
         string Password,
         List<ESewingMachine> MachineType,
         List<EMaterial> MaterialType
-        ) : IRequest<CreateSupplierResponse>;
+        ) : IRequest<UpdateServiceResponse>;
 }

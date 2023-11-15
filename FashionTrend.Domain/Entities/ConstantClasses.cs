@@ -8,6 +8,29 @@
             MANUFACTORING
         }
 
+        public enum EMaterial
+        {
+            Jeans,
+            Silk,
+            Leather,
+            Lycra,
+            Cotton,
+            Velvet,
+            Polyester,
+            Linen
+        }
+
+        public enum ESewingMachine
+        {
+            Overloque,
+            Galoneira,
+            PontoCadeia,
+            Travete,
+            Reta,
+            Caseadeira,
+            Botoneira
+        }
+
         public enum EServiceStatus
         {
             PENDING,

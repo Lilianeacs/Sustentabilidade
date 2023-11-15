@@ -1,9 +1,3 @@
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.csproj.AssemblyReference.cache
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.AssemblyInfoInputs.cache
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.AssemblyInfo.cs
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.csproj.CoreCompileInputs.cache
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\appsettings.Development.json
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\appsettings.json
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\FashionTrend.Api.exe
@@ -53,6 +47,13 @@ D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\Fash
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\FashionTrend.Application.pdb
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\FashionTrend.Persistence.pdb
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\bin\Debug\net6.0\FashionTrend.Domain.pdb
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.csproj.AssemblyReference.cache
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.AssemblyInfoInputs.cache
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.AssemblyInfo.cs
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.csproj.CoreCompileInputs.cache
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\staticwebassets\msbuild.FashionTrend.Api.Microsoft.AspNetCore.StaticWebAssets.props
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\staticwebassets\msbuild.build.FashionTrend.Api.props
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FashionTrend.Api.props
@@ -67,4 +68,3 @@ D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\refi
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.pdb
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.genruntimeconfig.cache
 D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\ref\FashionTrend.Api.dll
-D:\BTG_EXERC\MODULO_4-C#\Sustentabilidade\FashionTrend.Api\obj\Debug\net6.0\FashionTrend.Api.MvcApplicationPartsAssemblyInfo.cs

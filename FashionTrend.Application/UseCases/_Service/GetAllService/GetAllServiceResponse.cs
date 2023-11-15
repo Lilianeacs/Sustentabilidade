@@ -1,8 +1,8 @@
 ﻿using FashionTrend.Domain.Entities;
 
-namespace FashionTrend.Application.UseCases._Supplier.GetAllSupplier
+namespace FashionTrend.Application.UseCases._Service.GetAllService
 {
-    public sealed record GetAllSupplierResponse
+    public sealed record GetAllServiceResponse
     {
         public Guid Id { get; set; }
         public string Name { get; set; }

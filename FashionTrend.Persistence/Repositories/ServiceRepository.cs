@@ -14,13 +14,13 @@ namespace FashionTrend.Persistence.Repositories
         public async Task<List<Service>> GetByMachine(string machine, CancellationToken cancellationToken)
         {
             return await Context.Services.Where(
-            x => x.SewingMachine.Any(s => s.Equals(machine))).ToListAsync(cancellationToken);
+            x => x.MachineType.Any(s => s.Equals(machine))).ToListAsync(cancellationToken);
         }
 
         public async Task<List<Service>> GetByMaterial(string material, CancellationToken cancellationToken)
         {
             return await Context.Services.Where(
-            x => x.Material.Any(s => s.Equals(material))).ToListAsync(cancellationToken);
+            x => x.MaterialType.Any(s => s.Equals(material))).ToListAsync(cancellationToken);
         }
 
         public async Task<List<Service>> GetByType(string type, CancellationToken cancellationToken)

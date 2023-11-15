@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using static FashionTrend.Domain.Entities.ConstantClasses;
 
 namespace FashionTrend.Application.UseCases._Supplier.UpdateSupplier
 {
@@ -7,7 +8,7 @@ namespace FashionTrend.Application.UseCases._Supplier.UpdateSupplier
         string Email,
         string Name,
         string Password,
-        string TipoMaquina,
-        string TipoMaterial
+        List<ESewingMachine> MachineType,
+        List<EMaterial> MaterialType
         ) : IRequest<UpdateSupplierResponse>;
 }

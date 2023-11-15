@@ -8,8 +8,8 @@ namespace FashionTrend.Application.UseCases._Supplier.CreateSupplier
     {
         public CreateSupplierValidator() 
         {
-            RuleFor(x => x.Email).NotEmpty().MaximumLength(50).EmailAddress();
             RuleFor(x => x.Name).NotEmpty().MinimumLength(3).MaximumLength(50);
+            RuleFor(x => x.Email).NotEmpty().MaximumLength(50).EmailAddress();
         }
         
     }
