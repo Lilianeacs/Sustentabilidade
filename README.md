@@ -15,7 +15,7 @@ DIAGRAMA DE USO VISÃO DA EMPRESA:
 
 ## Pacotes e Versões Necessárias
 
-Os pacotes necessários para rodar o projeto e as versões utilizei.
+Os pacotes necessários para rodar o projeto e as versões que utilizei.
 
 * Confluent.Kafka - Versão: 2.3.0
 * FluentValidation.DependencyInjectionExtensions - Versão: 11.8.0
