@@ -2,6 +2,13 @@
 {
     public static class ConstantClasses
     {
+        public enum EContractStatus
+        {
+            Active =1,
+            Inactive,
+            Terminated
+        }
+
         public enum EServiceType
         {
             REPAIR,
@@ -37,6 +44,13 @@
             APPROVED,
             REJECTED,
             COMPLETED
+        }
+
+        public enum EPaymentMethod
+        {
+            CreditCard,
+            DebitCard,
+            Pix
         }
     }
 }

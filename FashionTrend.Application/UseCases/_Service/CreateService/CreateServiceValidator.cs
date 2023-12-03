@@ -1,5 +1,4 @@
-﻿﻿using FluentValidation;
-using FashionTrend.Application.UseCases._Service.CreateService;
+﻿using FluentValidation;
 
 
 namespace FashionTrend.Application.UseCases._Service.CreateService
@@ -8,8 +7,8 @@ namespace FashionTrend.Application.UseCases._Service.CreateService
     {
         public CreateServiceValidator() 
         {
-            RuleFor(x => x.Name).NotEmpty().MinimumLength(3).MaximumLength(50);
-            RuleFor(x => x.Email).NotEmpty().MaximumLength(50).EmailAddress();
+            RuleFor(x => x.Description).NotEmpty();
+            RuleFor(x => x.MaterialType).NotEmpty();
         }
         
     }

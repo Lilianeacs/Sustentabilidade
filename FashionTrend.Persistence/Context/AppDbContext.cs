@@ -1,6 +1,7 @@
 ﻿using FashionTrend.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Contracts;
+using static FashionTrend.Domain.Entities.ConstantClasses;
 
 namespace FashionTrend.Persistence.Context
 {
@@ -13,12 +14,14 @@ namespace FashionTrend.Persistence.Context
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.MaterialType);
-            //modelBuilder.Entity<Supplier>().Ignore(supplier => supplier.MachineType);
-            //modelBuilder.Entity<Service>().Ignore(service => service.MaterialType);
-            //modelBuilder.Entity<Service>().Ignore(service => service.MachineType);
+            
             modelBuilder.Entity<Service>().Ignore(service => service.Type);
             modelBuilder.Entity<ServiceOrder>().Ignore(ServiceOrder => ServiceOrder.Status);
+
+            modelBuilder.Entity<Product>().Property(e => e.Materials)
+                .HasConversion(v => string.Join(",", v.Select(s => s.ToString())),
+                v => v.Split(',', StringSplitOptions.RemoveEmptyEntries)
+                .Select(s => (ConstantClasses.EMaterial)Enum.Parse(typeof(ConstantClasses.EMaterial), s)).ToList());
 
             modelBuilder.Entity<Supplier>().Property(e => e.MachineType)
                 .HasConversion(v => string.Join(",", v.Select(s => s.ToString())),
@@ -45,7 +48,9 @@ namespace FashionTrend.Persistence.Context
         // que vem do Entities do nosso Domain ao banco de dados
         public DbSet<Supplier> Suppliers{ get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<ServiceOrder> ServicesOrder { get; set; }
+        public DbSet<ServiceContract> ServicesContract { get; set; }
     }
 }
 

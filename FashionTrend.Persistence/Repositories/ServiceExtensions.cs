@@ -24,6 +24,10 @@ namespace FashionTrend.Persistence.Repositories
             services.AddScoped<ISupplierRepository, SupplierRepository>();
             services.AddScoped<IServiceRepository, ServiceRepository>();
             services.AddScoped<IServiceOrderRepository, ServiceOrderRepository>();
+            services.AddScoped<IServiceContractRepository, ServiceContractRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IKafkaProducer, KafkaProducer>();
+            services.AddScoped<IKafkaConsumer, KafkaConsumer>();
 
         }
     }
